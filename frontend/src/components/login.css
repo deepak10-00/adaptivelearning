@@ -1,0 +1,135 @@
+body, .login-bg {
+    background: #141625;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background: #1a1c2b;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.19);
+    width: 340px;
+    text-align: center;
+}
+
+.login-title {
+    color: #b8aaff;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+.login-roles {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.role-btn {
+    background: #24253a;
+    color: #b8b9be;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.role-btn.active {
+    background: #9d6eff;
+    color: #fff;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    margin: 0.7rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    background: #23253c;
+    color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Password wrapper styling */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0.7rem 0;
+}
+
+/* Password input inside wrapper */
+.password-wrapper .login-input {
+    padding-right: 2.5rem; /* space for eye icon */
+    background: #23253c;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    background: #9d6eff;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.9rem 0;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-btn:hover {
+    background: #b8aaff;
+    color: #23253c;
+}
+
+.register-link {
+    color: #b8b9be;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.register-link a {
+    color: #9d6eff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Eye icon styles */
+.eye-icon {
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+    font-size: 1.3rem;
+    color: #b8aaff;
+    cursor: pointer;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.eye-icon:hover {
+    color: #9d6eff;
+}

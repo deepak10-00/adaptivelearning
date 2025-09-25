@@ -1,0 +1,43 @@
+.hod-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Key line: separates brand left, buttons right */
+    background-color: #23253c;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hod-navbar .brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #27e6ea;
+}
+
+.hod-navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.hod-navbar .nav-links button {
+    background: none;
+    border: 1.5px solid #27e6ea;
+    color: #ccc;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hod-navbar .nav-links button.active,
+.hod-navbar .nav-links button[aria-current="page"] {
+    background-color: #27e6ea;
+    color: #23253c;
+}
+
+.hod-navbar .nav-links button:hover {
+    background-color: #27e6ea;
+    color: #23253c;
+}

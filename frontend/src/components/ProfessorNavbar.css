@@ -1,0 +1,43 @@
+.professor-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #23253c;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.professor-navbar .brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #27e6ea;
+    margin-right: auto;
+}
+
+.professor-navbar .nav-links button {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.professor-navbar .nav-links button:hover {
+    background-color: #27e6ea;
+    color: #23253c;
+}
+
+.professor-navbar .nav-links button.active,
+.professor-navbar .nav-links button[aria-current="page"] {
+    background-color: #27e6ea;
+    color: #23253c;
+}
+
+.professor-navbar .nav-links button:focus {
+    outline: 2px solid #27e6ea;
+    outline-offset: 2px;
+}
