@@ -1,0 +1,47 @@
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+*.tgz
+.env
+dist/
+build/
+.cache/
+
+# ---- React / Frontend ----
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.cache/
+
+# ---- Java / Maven ----
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+*.class
+*.war
+*.ear
+*.jar
+
+# ---- IDE / Editors ----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ---- OS specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+logs/
+*.log
+*.out
+*.pid
+
+# ---- Test / Coverage ----
+coverage/
+.nyc_output/
